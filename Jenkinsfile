@@ -2,7 +2,7 @@ properties([pipelineTriggers([githubPush()])])
 pipeline {
     agent any 
      tools { 
-        maven '3.8.6' 
+        maven "/opt/apache-maven-3.8.6"
         
     }
           

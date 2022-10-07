@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('git clone') {
             steps {
-               git branch: 'main', url: 'https://github.com/iheeb9/jenkins-test.git'
+               git branch: 'main', url: 'https://github.com/iheeb9/microservice-cicd.git'
         
             }
         }

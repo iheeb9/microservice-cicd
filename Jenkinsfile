@@ -2,7 +2,7 @@ properties([pipelineTriggers([githubPush()])])
 pipeline {
     agent any 
      tools { 
-        lm 'M2_HOME' 
+        maven '3.8.6' 
         
     }
           

@@ -16,7 +16,7 @@ pipeline {
             steps {
              echo "M2_HOME = ${M2_HOME}"
              sh 'mvn clean install'
-             sh 'mvn spring-boot:run'
+        
         
             }
         }

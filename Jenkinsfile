@@ -1,7 +1,11 @@
 properties([pipelineTriggers([githubPush()])])
 pipeline {
     agent any 
-   
+        tools { 
+        maven "ASUS-38005"
+        
+    }
+       
 
     stages {
         stage('git clone') {

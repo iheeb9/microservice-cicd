@@ -11,7 +11,6 @@ pipeline {
         }
         stage('clean package') {
             steps {
-             echo "M2_HOME = ${M2_HOME}"
              sh 'mvn clean install'
         
         

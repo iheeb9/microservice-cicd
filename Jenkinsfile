@@ -23,7 +23,7 @@ pipeline {
         }
         stage('docker') {
             steps {
-             sh 'docker build -t faza .'
+             sh 'docker build -t condidate .'
         
         
             }
